@@ -21,3 +21,13 @@ resource "aws_instance" "app_server" {
     Name = "Git client"
   }
 }
+
+resource "aws_instance" "db_server" {
+  ami           = "ami-830c94e3"
+  instance_type = "t2.micro"
+  key_name = "oregon"
+  tags = {
+    Name = "Git client"
+  }
+}
+
