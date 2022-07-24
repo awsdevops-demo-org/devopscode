@@ -1,5 +1,6 @@
 terraform init
 
-terraform plan
+terraform plan -out dev.plan
 
 terraform apply
+
