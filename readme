@@ -4,3 +4,4 @@ terraform plan -out dev.plan
 
 terraform apply
 
+terraform destroy
