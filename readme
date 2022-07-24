@@ -1,6 +1,6 @@
 terraform init
 
-terraform plan -out dev.plan
+terraform plan -out dev.plan -var-file dev.tfvars
 
 terraform apply
 
